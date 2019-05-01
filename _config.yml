@@ -13,8 +13,8 @@ timezone:
 
 # Header
 menu:
-  About: /about
-  Portfolio: https://snoopy4265.github.io
+  Blog: /blog
+  Portfolio: /portfolio
   Instagram: https://www.instagram.com
   LinkedIn: https://www.linkedin.com
   Facebook: https://www.facebook.com

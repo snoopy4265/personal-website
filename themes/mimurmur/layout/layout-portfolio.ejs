@@ -1,0 +1,7 @@
+<div class="col-md-12 col-12 mb-4 layout-main">
+  <div class="Index">
+     <% site.categories.findOne({name: 'portfolio'}).posts.sort('date', -1).each(function(item){%>
+       <%- partial('_partial/portfolio-index', {item: item}) %>
+    <% }) %>
+  </div>
+</div>
