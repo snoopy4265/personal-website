@@ -47,6 +47,11 @@ input:focus, textarea:focus {
 	align-items: flex-start;
 }
 
+.portfolio-index {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .portfolio-content {
 	line-height: 2;
 	color: #555;
@@ -67,7 +72,7 @@ input:focus, textarea:focus {
 h1, h2, h3 {
 	font-family: 'Crimson Text', sans-serif;
 	letter-spacing: 1px;
-	font-weight: 300;
+	font-weight: 500;
 	margin-bottom: 20px;
 }
 
