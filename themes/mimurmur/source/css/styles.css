@@ -2,24 +2,31 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-form {
-	max-width: 500px;
-	margin: 0 auto;
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
-button {
-  color: #777;
-	background: #fff;
-  padding: 4px 12px 4px 12px;
-  border: solid #777 2px;
+blockquote {
+  font: italic 1.3em/2 'Playfair Display', serif;
+  margin: 0 0 2em 0;
+}
+
+button, .button {
+	display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #292929;
+  padding: .8em 1.5em;
 	transition: all 0.3s ease-in-out;
-  text-decoration: none;
 }
 
-button:hover {
-	color: #000;
-	border: solid #000 2px;
-  text-decoration: none;
+button:hover, .button:hover {
+	background: black;
+	color: white;
+	text-decoration: none;
 }
 
 input, textarea {
@@ -30,7 +37,6 @@ input, textarea {
 	margin: 5px 0;
   transition: all 0.3s ease-in-out;
   width: 100%;
-
 }
 
 input:focus, textarea:focus {
@@ -67,13 +73,6 @@ input:focus, textarea:focus {
 	color: #000;
 	text-decoration: none;
 	border-bottom: 1px solid #555;
-}
-
-h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
-	letter-spacing: 1px;
-	font-weight: 500;
-	margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -187,10 +186,7 @@ h1, h2, h3 {
 
 /* ===== customize add-on ====== */
 
-#sidebar {
-	margin: 0 0.75rem;
-}
-
+/* Start of Sidebar */
 .widget-wrap {
 	margin: 2rem 0;
 }
@@ -220,18 +216,118 @@ h1, h2, h3 {
 	color: #0085a1;
 }
 
+/* End of Sidebar */
 
-.tagcloud a {
-	display: inline-block;
-	margin-bottom: 1rem;
-	font-size: 0.8rem !important;
+/* Start of Section0 */
+.section0 {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: url(/images/header.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50% 45%;
+}
+/* End of Section0 */
+
+/* Start of Section1 */
+.section1 {
+	display: grid;
+	grid-template-columns: 3fr 6fr 10fr 2fr 6fr 3fr;
+	grid-template-rows: 100px auto auto auto auto;
+	margin-bottom: 100px;
 }
 
-.tagcloud a::after{
-	content: '|';
+.section1 .img1 {
+  background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	grid-column: 1 / span 4;
+  grid-row: 2 / span 4;
 }
 
-/* media queries */
+.section1 .img2 {
+  background: url(/images/1.jpeg);
+  background-size: cover;
+	background-position: 50% 50%;
+	grid-column: 5 / span 2;
+  grid-row: 4 / span 2;
+	z-index: -1;
+}
+
+.section1 .strapline {
+  grid-column: 5 / span 2;
+  grid-row: 2 / span 1;
+  position: relative;
+}
+
+.section1 .content-wrapper {
+  grid-column: 4 / span 3;
+  grid-row: 4 / span 2;
+}
+
+.section1 .content {
+  padding: 50px 10%;
+}
+
+.section1 .content h1 {
+  font: bold 6em/1 'Playfair Display', serif;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+/* End of Section1 */
+
+/* Start of Section2 */
+.section2 {
+	display: grid;
+	grid-template-columns: 2fr 10fr 5fr 1fr 6fr 3fr;
+	grid-template-rows: 100px auto 15px auto auto;
+	margin-bottom: 100px;
+}
+
+.section2 .img:first-child {
+  background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	grid-column: 4 / span 3;
+  grid-row: 1 / span 4;
+}
+
+.section2 .img:nth-child(2) {
+  background-size: cover;
+	background-position: 50% 50%;
+	grid-column: 3 / span 3;
+  grid-row: 3 / span 3;
+	z-index: -1;
+}
+
+.section2 .strapline {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+  position: relative;
+}
+
+.section2 .content-wrapper {
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 2;
+}
+
+.section2 .content {
+  padding: 50px 10%;
+}
+
+.section2 .content h1 {
+  font: bold 6em/1 'Playfair Display', serif;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+
+/* Utils */
+.page-wrapper {
+	width: 100%;
+	margin: 0 0.75rem;
+}
+
+/* Media Queries */
 @media screen and (max-width: 768px) {
 	.layout-side {
 		order: 1;
@@ -240,4 +336,14 @@ h1, h2, h3 {
 	.layout-main {
 		order: 0;
 	}
+
+	.section1, .section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	}
+
+	.section1 .img1, .section2 .img:first-child {
+		grid-column: 1 / span 6;
+	}
+
 }

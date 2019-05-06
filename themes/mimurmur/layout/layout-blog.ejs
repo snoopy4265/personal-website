@@ -1,12 +1,14 @@
-<div class="col-md-2 col-12 mb-4 layout-side">
-  <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
-    <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
-  <% } %>
-</div>
-<div class="col-md-10 col-12 mb-4 layout-main">
-  <div class="Index">
-     <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).each(function(item){%>
-       <%- partial('_partial/portfolio-index', {item: item}) %>
-    <% }) %>
+<div class="page-wrapper">
+  <div class="col-md-2 col-12 mb-4 layout-side">
+    <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+      <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+    <% } %>
+  </div>
+  <div class="col-md-10 col-12 mb-4 layout-main">
+    <div class="Index">
+       <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).each(function(item){%>
+         <%- partial('_partial/portfolio-index', {item: item}) %>
+      <% }) %>
+    </div>
   </div>
 </div>
