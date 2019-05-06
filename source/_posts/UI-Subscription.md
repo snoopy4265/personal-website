@@ -1,8 +1,8 @@
 ---
 title: UI-Subscription
 date: 2019-05-01 20:30:50
-categories: portfolio
+categories: blog
 tags:
-  - portfolio
-cover_image: images/subscribe.png
+  - blog
+cover_image: /images/subscribe.png
 ---

@@ -4,5 +4,5 @@ date: 2019-04-30 17:15:12
 categories: portfolio
 tags:
   - portfolio
-cover_image: images/boarding pass.png
+cover_image: /images/boarding pass.png
 ---

@@ -2,27 +2,12 @@
   <div class="page-wrapper">
     <section class="section0"></section>
     <section class="section1">
-      <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).limit(1).each(function(post){ %>
-      <div class="img1" style="background-image: url('<%- post.cover_image || theme.default_cover_image %>')"></div>
-      <% }) %>
-      <div class="icon1"></div>
-      <div class="strapline">
-        <blockquote>“I am an UI/UX Designer and Front-End Developer based in Germany. I love design beautiful yet user-friendly interfaces and have passion in fulfilling them to real code.”</blockquote>
-      </div>
-        <div class="content-wrapper">
-          <div class="content">
-            <h1>_ Blogger</h1>
-            <a class="button" href="/blog">View Blog →</a>
-        </div>
-      </div>
-    </section>
-    <section class="section2">
       <% site.categories.findOne({name: 'portfolio'}).posts.sort('date', -1).limit(2).each(function(post){ %>
       <div class="img" style="background-image: url('<%- post.cover_image%>')"></div>
       <% }) %>
       <div class="icon2"></div>
       <div class="strapline">
-        <blockquote>“I am an UI/UX Designer and Front-End Developer based in Germany. I love design beautiful yet user-friendly interfaces and have passion in fulfilling them to real code.”</blockquote>
+        <blockquote>“I work as an UX Designer and Front-End Developer. I love design beautiful yet user-friendly interfaces and have passion in fulfilling them to real code.”</blockquote>
       </div>
         <div class="content-wrapper">
           <div class="content">
@@ -31,6 +16,22 @@
         </div>
       </div>
     </section>
+    <section class="section2">
+      <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).limit(1).each(function(post){ %>
+      <div class="img1" style="background-image: url('<%- post.cover_image || theme.default_cover_image %>')"></div>
+      <% }) %>
+      <div class="icon1"></div>
+      <div class="strapline">
+        <blockquote>“In my spare time, I decided to write a blog to record things I've learned, places I've been and recent thoughts in my mind.”</blockquote>
+      </div>
+        <div class="content-wrapper">
+          <div class="content">
+            <h1>_ Blogger</h1>
+            <a class="button" href="/blog">View Blog →</a>
+        </div>
+      </div>
+    </section>
+
     <section class="section3 col-md-10 col-12">
       <div class="strapline">
         <blockquote>“I'm addicted to beautiful stuffs.</br>

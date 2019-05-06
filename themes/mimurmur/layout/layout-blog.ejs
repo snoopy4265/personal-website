@@ -4,9 +4,7 @@
   <% } %>
 </div>
 <div class="col-md-10 col-12 mb-4 layout-main">
-  <div class="Index">
-     <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).each(function(item){%>
-       <%- partial('_partial/portfolio-index', {item: item}) %>
-    <% }) %>
-  </div>
+   <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).each(function(item){%>
+     <%- partial('_partial/portfolio-index', {item: item}) %>
+  <% }) %>
 </div>

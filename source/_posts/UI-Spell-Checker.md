@@ -4,7 +4,7 @@ date: 2019-05-01 20:38:41
 categories: portfolio
 tags:
   - portfolio
-cover_image: images/wordpusher.png
+cover_image: /images/wordpusher.png
 ---
 Have you ever thought about spell checking system continues to interrupt typing flow? Sometimes I just want to correct all my spelling mistakes at one time after my paragraph comes to an end. However the spell checker will pop out to show some spelling suggestions or just replace my mistakes automatically while I am still typing.
 

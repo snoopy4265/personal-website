@@ -65,6 +65,11 @@ input:focus, textarea:focus {
 .portfolio-content {
 	line-height: 2;
 	color: #555;
+	margin: 0 auto;
+	margin-top: 60px;
+	max-width: 740px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .portfolio-content a {
@@ -202,31 +207,46 @@ input:focus, textarea:focus {
 }
 
 .widget-title {
-	font-family: 'Open Sans', sans-serif;
+	font: bold 1.3em/1 'Playfair Display', serif;
 	text-decoration: none;
   text-transform: uppercase;
-	font-size: 0.8rem;
-	font-weight: 300;
   letter-spacing: 1.5px;
-  line-height: 1em;
 }
 
 .widget {
-	color: #777;
   border-bottom: 1px solid #ccc;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
+}
+
+.widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget ul li {
+  margin-bottom: 10px;
 }
 
 .widget a {
-	color: #bfbfbf;
+	color: #292929;
 	text-decoration: none;
 }
 
 .widget a:hover {
-	color: #0085a1;
+	color: black;
 }
 
 /* End of Sidebar */
+
+.blog-full-image {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 /* Start of Section0 */
 .section0 {
@@ -236,26 +256,28 @@ input:focus, textarea:focus {
 	background: url(/images/header.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50% 45%;
+	margin-bottom: 100px;
 }
 /* End of Section0 */
 
-/* Start of Section1 */
-.section1 {
+/* Start of Section2 */
+.section2 {
 	display: grid;
 	grid-template-columns: 3fr 6fr 10fr 2fr 6fr 3fr;
 	grid-template-rows: 100px auto auto auto auto;
 	margin-bottom: 100px;
 }
 
-.section1 .img1 {
+.section2 .img1 {
   background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	grid-column: 1 / span 4;
   grid-row: 2 / span 4;
+	margin: 0 1.5rem;
 }
 
-.section1 .icon1 {
+.section2 .icon1 {
   background: url(/images/icon1.svg);
   background-size: contain;
 	background-position: 50% 50%;
@@ -264,74 +286,19 @@ input:focus, textarea:focus {
   grid-row: 4 / span 2;
 }
 
-.section1 .strapline {
+.section2 .strapline {
   grid-column: 5 / span 2;
   grid-row: 2 / span 1;
   position: relative;
 }
 
-.section1 .content-wrapper {
+.section2 .content-wrapper {
   grid-column: 4 / span 3;
   grid-row: 4 / span 2;
 }
 
-.section1 .content {
-  padding: 50px 10%;
-}
-
-.section1 .content h1 {
-  font: bold 6em/1 'Playfair Display', serif;
-  margin: 0 0 40px 0;
-  position: relative;
-}
-/* End of Section1 */
-
-/* Start of Section2 */
-.section2 {
-	display: grid;
-	grid-template-columns: 4fr 6fr 5fr 1fr 6fr 3fr;
-	grid-template-rows: 100px auto auto 250px auto;
-	margin-bottom: 100px;
-}
-
-.section2 .img:first-child {
-  background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	grid-column: 4 / span 3;
-  grid-row: 1 / span 4;
-}
-
-.section2 .img:nth-child(2) {
-  background-size: cover;
-	background-position: 50% 50%;
-	grid-column: 3 / span 3;
-  grid-row: 3 / span 3;
-	z-index: -1;
-}
-
-.section2 .icon2 {
-	background: url(/images/icon2.svg);
-  background-size: contain;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	grid-column: 2 / span 1;
-  grid-row: 5 / span 2;
-}
-
-.section2 .strapline {
-  grid-column: 1 / span 2;
-  grid-row: 2 / span 1;
-  position: relative;
-}
-
-.section2 .content-wrapper {
-  grid-column: 1 / span 3;
-  grid-row: 4 / span 2;
-}
-
 .section2 .content {
-  padding: 10% 50px 10% 0px;
+  padding: 50px 10%;
 }
 
 .section2 .content h1 {
@@ -340,6 +307,61 @@ input:focus, textarea:focus {
   position: relative;
 }
 /* End of Section2 */
+
+/* Start of Section1 */
+.section1 {
+	display: grid;
+	grid-template-columns: 4fr 6fr 5fr 1fr 6fr 3fr;
+	grid-template-rows: 100px auto auto 250px auto;
+	margin-bottom: 100px;
+}
+
+.section1 .img:first-child {
+  background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	grid-column: 4 / span 3;
+  grid-row: 1 / span 4;
+}
+
+.section1 .img:nth-child(2) {
+  background-size: cover;
+	background-position: 50% 50%;
+	grid-column: 3 / span 3;
+  grid-row: 3 / span 3;
+	z-index: -1;
+}
+
+.section1 .icon2 {
+	background: url(/images/icon2.svg);
+  background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	grid-column: 2 / span 1;
+  grid-row: 5 / span 2;
+}
+
+.section1 .strapline {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  position: relative;
+}
+
+.section1 .content-wrapper {
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 2;
+}
+
+.section1 .content {
+  padding: 10% 50px 10% 0px;
+}
+
+.section1 .content h1 {
+  font: bold 6em/1 'Playfair Display', serif;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+/* End of Section1 */
 
 /* Start of Section3 */
 .section3 {
