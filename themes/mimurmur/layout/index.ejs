@@ -24,16 +24,29 @@
       </div>
     </section>
     <section class="section2">
-      <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).limit(3).each(function(post){ %>
-      <div class="post" style="background-image: url('<%- post.cover_image || theme.default_cover_image %>')"></div>
+      <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).limit(2).each(function(item){ %>
+        <div class="hovereffect">
+          <a href="<%- config.root %><%- item.path %>">
+            <img class="img-fluid portfolio-img" src="<%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>">
+            <div class="overlay">
+              <span class="overlay-text"><%- item.title || theme.default_post_title || "Untitled" %></span>
+            </div>
+          </a>
+        </div>
       <% }) %>
       <div class="strapline1">In my spare time, I decided to write a blog to record my life path -</div>
       <div class="strapline2">So,</br>I'm also a -</div>
-        <div class="content-wrapper">
-          <div class="content">
-            <h1>Blogger</h1>
-            <a class="button" href="/blog">View Blog →</a>
+      <div class="content-wrapper">
+        <div class="content">
+          <h1>Blogger</h1>
+          <a class="button" href="/blog">View Blog →</a>
         </div>
+      </div>
+      <div class="featured">
+        Recently</br>Added
+        <svg class="line" height="10" width="210">
+          <line x1="0" y1="0" x2="210" y2="0" style="stroke:rgb(0,0,0);stroke-width:5" />
+        </svg>
       </div>
     </section>
 
@@ -41,7 +54,7 @@
       <div class="strapline">
         I'm addicted to beautiful stuffs.</br>
         So I draw, to visualize my fantasy. So I write to record impressive memories.</br>
-        So I photograph, to capture dazzling moments. So I travel, to se the splendid world.</br>
+        So I photograph, to capture dazzling moments. So I travel, to see the splendid world.</br>
         If you have any cool ideas, ping me a message, let's talk!
       </div>
     </section>
