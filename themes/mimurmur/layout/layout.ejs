@@ -11,13 +11,9 @@
   		<div class="row">
           <%- body %>
       </div>
-      <% if (page.total > 1) { %>
-      <nav class="page-nav">
-          <%- paginator({prev_text: '<', next_text: '>'}) %>
-      </nav>
-      <% } %>
-  	</div>
-    
+
+    </div>
+
     <!-- Footer -->
     <%- partial('_partial/pre-footer') %>
     <!-- After footer scripts -->

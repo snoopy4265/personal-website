@@ -4,7 +4,7 @@ date: 2019-05-24 00:54:18
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/1.png
+cover_image: /images/timeexchange.png
 ---
 <p style="color:#aaa;">Personal Work | Year: 2016</p>
 

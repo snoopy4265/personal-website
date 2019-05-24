@@ -6,3 +6,9 @@
 <div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
   <%- item.content %>
 </div>
+
+<% if (page.total > 1) { %>
+<nav class="page-nav">
+    <%- paginator({prev_text: '<', next_text: '>'}) %>
+</nav>
+<% } %>
