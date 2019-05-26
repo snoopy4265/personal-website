@@ -4,7 +4,7 @@ date: 2019-05-24 01:35:43
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/wordpusher.png
+cover_image: /images/spellcheck-pusher.png
 ---
 <p style="color:#aaa;">Master Project | Year: 2017</p>
 
