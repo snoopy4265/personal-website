@@ -9,6 +9,9 @@ cover_image: /images/koenigssee.JPG
 ---
 前一晚我們夜宿小鎮貝希特斯加登(Berchtesgaden)，隔天一早9:00開車前往國王湖
 其實在去國王湖之前，許多去過的友人都跟我說，一定要去上湖(Obersee)，否則等於沒來過國王湖
+
+<img src="https://drive.google.com/uc?export=view&id=1fCTIHRLHCyfHV09rWSCvklIGAGj7_TOY" width="100%" height="auto" />
+
 圖中的Obersee就是上湖，可以從入口Königssee Seelände搭船到Salet，再步行到上湖
 
 <img src="https://drive.google.com/uc?export=view&id=1c6skHQkseXTRIrUqDAr3V-U4Vv-By90Y" width="100%" height="auto" />
@@ -29,7 +32,7 @@ cover_image: /images/koenigssee.JPG
 
 到達Salet港口後，步行到上湖大概需要半小時，我們去的時候不知道是因為太早還是什麼原因，幾乎沒什麼人，加上當天的天氣又好得不得了，頓時覺得自己像在人間仙境
 
-<img src="https://drive.google.com/uc?export=view&id=1fCTIHRLHCyfHV09rWSCvklIGAGj7_TOY" width="100%" height="auto" />
+<img src="https://drive.google.com/uc?export=view&id=1x2m2hdbcidFFeLgpDCwvVBIJr26If6iY" width="100%" height="auto" />
 
 湖面平靜無風時，像一面鏡子，映照群山
 而當微風吹拂，一抹陽光偶然灑在湖面上，波光粼粼，像是滾滾而來的星空
