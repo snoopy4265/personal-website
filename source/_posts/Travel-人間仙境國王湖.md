@@ -10,8 +10,6 @@ cover_image: /images/koenigssee.JPG
 前一晚我們夜宿小鎮貝希特斯加登(Berchtesgaden)，隔天一早9:00開車前往國王湖
 其實在去國王湖之前，許多去過的友人都跟我說，一定要去上湖(Obersee)，否則等於沒來過國王湖
 
-![image](/images/koenigssee.JPG)
-
 圖中的Obersee就是上湖，可以從入口Königssee Seelände搭船到Salet，再步行到上湖
 
 <img src="https://drive.google.com/uc?export=view&id=1c6skHQkseXTRIrUqDAr3V-U4Vv-By90Y" width="100%" height="auto" />

@@ -45,3 +45,9 @@ Day 05. User Profile
 Day 06. Music Player
 [Source Code](https://codesandbox.io/s/ywy5r3q6xv)
 </div>
+
+<div style="text-align:center;margin-bottom:40px;">
+<img src="https://drive.google.com/uc?export=view&id=1P8gYujvzeO6ruMVHTwXHpjZ3K8fiRY1D" width="100%" height="auto" />
+Day 07. Pomodoro Timer
+[Source Code](https://github.com/snoopy4265/pomodoro)
+</div>
