@@ -10,18 +10,18 @@ cover_image: /images/tesa-show-1.jpg
 
 TeSA is the abbreviation for Taiwan E-commerce & Startup Association. In 2015, I designed the official website for TeSA: http://www.tesa.today. On the website, it mainly provided articles related to online startup, E-commerce, and digital marketing, enabling people interested in these fields to obtain information.
 
-**Wireframe:**
+### Wireframe
 <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px;">
 <img src="https://drive.google.com/uc?export=view&id=1-6yra8TB5uUcQuCOs9dm2kthLDGV2f-L" width="250px" height="auto"/>
 <img src="https://drive.google.com/uc?export=view&id=1YB_bthyeq_FjJteYZQtvj4nddhygHx36" width="250px" height="auto"/>
 </div>
 
-**Mockup:**
+### Mockup
 <div style="text-align:center;margin-bottom:40px;">
 <img src="https://drive.google.com/uc?export=view&id=19WRKKuofTKjqs70eP0v8JLY7aUupclp8" width="250px" height="auto" />
 </div>
 
-**Web&UX:**
+### Web and UX
 <div style="text-align:center;margin-bottom:40px;">
 <img src="https://drive.google.com/uc?export=view&id=1a_0-5WP8wUhqL3jdl0rb5PQsNuP9WyTZ" width="100%" height="auto" />
 </div>

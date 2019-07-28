@@ -10,7 +10,7 @@ cover_image: /images/unionpay-show-1_.jpg
 
 This was a case developed for China UnionPay, including both APP and web development. It primarily allowed Mainland China tourists who came to Taiwan to get directions through the APP. Also it searched for UnionPay discount information at the meantime, in order to promote using UnionPay. Inside this case, I was mainly in charge of the UI design in APP development and front-end design of the web development.
 
-**Design Idea:**
+### Design Idea
 Because the software was mainly targeting tourists who came to Taiwan for leisure, so the interface was set to create a dynamic style. The main layout adopted the primary color of UnionPay—red, green and blue—together with other accent color based on the primary color.
 
 The other nine business categories applied bold color schemes of high saturation, not only allowed them more easily to be identified on maps, but also demonstrated lively and alluring image.
@@ -26,7 +26,7 @@ The other nine business categories applied bold color schemes of high saturation
 <img src="https://drive.google.com/uc?export=view&id=10jtr7y3lULfEcRJCPtQycbmzwi6jmaG4" width="250px" height="auto" />
 </div>
 
-**The Importance of Communication:**
+### The Importance of Communication
 Throughout the development, I was responsible for both design and front-end development in the web part. Therefore, I could completely control the appearance of webpages, including the distance between items, the size of picture, and all the designing details.
 
 <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:40px;">
@@ -36,7 +36,7 @@ Throughout the development, I was responsible for both design and front-end deve
 
 However, I was only in charge of designing Graphical User Interface (GUI) in the APP part. It turned out that lots of time was spent on communicating and optimizing details with the APP engineer. For example, applying parallax scrolling in browsing to optimize user experience, advancing clicking range, and different presence under different screen resolutions all went through constant testing, communicating, revising to reach the content result.
 
-**Using Zeplin to communicate with app developers:**
+### Using Zeplin to communicate with app developers
 <div style="text-align:center;margin-bottom:40px;">
 <img src="https://drive.google.com/uc?export=view&id=1ejA3xlL39GIj0FjrNNt7dkYEdj7jReK7" width="100%" height="auto" />
 </div>
@@ -44,5 +44,5 @@ However, I was only in charge of designing Graphical User Interface (GUI) in the
 <img src="https://drive.google.com/uc?export=view&id=1mZINPHfU0VRoYNRCBTp2n5zkfL8KMyRh" width="100%" height="auto" />
 </div>
 
-**Result:**
+### Result
 After consistent hard work, recently the APP has entered the final stage of examination. And it is expected to be published on App store and Google play by the end of this year. The web version and APP will go online at the same time. Tourists coming to Taiwan would be able to enjoy the discount from UnionPay in the near future.

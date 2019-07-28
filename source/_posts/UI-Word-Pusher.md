@@ -1,5 +1,5 @@
 ---
-title: Word Pusher
+title: Build word pusher to learn German
 date: 2019-05-25 23:55:04
 categories: portfolio
 tags:
