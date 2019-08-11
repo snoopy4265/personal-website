@@ -65,7 +65,7 @@ There are two features we decided to focus on ideating in order to achieve our i
 <img src="https://drive.google.com/uc?export=view&id=1NVnkkXgVCaYKzujQxw7fIOk8imoQNaZ2" width="213px" height="auto"/>
 </div>
 <div style="text-align:center;margin-bottom:40px;">
-<video id="video" autoplay loop>
+<video id="video"  preload="auto" autoplay loop>
 <source id="mp4" src="/images/Proquestion.mp4" type="video/mp4">
 </video>
 </div>
