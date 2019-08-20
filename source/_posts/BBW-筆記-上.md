@@ -42,7 +42,7 @@ Michael Sena（3box Cofounder）建議應該從Dev tools中來建立Design Patte
 <br/>
 ## Rules for More Usable + Engaging Web3 Apps:
 1. **Move off-chain whatever you can:** 除了比較重要的finacial transcation或必要的操作，其餘在Dapps上的操作能不跑Global state就不要跑(Minimal Viable Blockchain)，使用MetaTransactions, Sidechains or State channels to reduce runtime。
-2. **Remove tokens whenever possible:** 盡量能不用代幣使用你的Dapp就不用，不要一開始就設門檻給使用者，讓使用者即使沒有tocken也能在他本來的Web2 browser load UI去使用你的Dapp，等到之後使用者連接其Etherium account，再unlock更多功能
+2. **Remove tokens whenever possible:** 盡量能不用代幣使用你的Dapp就不用，不要一開始就設門檻給使用者，讓使用者即使沒有tocken也能在他本來的Web2 browser load UI去使用你的Dapp，等到之後使用者連接其Ethereum account，再unlock更多功能
 3. **Use Web2 patterns when possible:** 整體來說，Web3還是令人感到陌生，能套用Web2的使用模式就盡量使用
 4. **Think about your end users not robots. Create something people want or need.**
 5. **Make things work together:** 隨時注意整個Web3生態系統中的應用和工具，讓你的Dapp能夠連結其他的工具
