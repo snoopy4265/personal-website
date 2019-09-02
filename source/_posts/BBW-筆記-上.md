@@ -7,7 +7,7 @@ tags:
   - tutorial
 cover_image: /images/BBW.png
 ---
-柏林受益於本身高度自由開放且反資本主義的城市氛圍，是發展去中心化區塊鏈的溫床，在今年為期一週的Berlin Blockchain Week(BBW)裡，我報名參加了幾場活動，活動中我主要著重於了解Web3和Dapps有關UI/UX的探討，並整理了一些自己的Note和Takeaway。
+柏林受益於本身自由開放且批判權威的城市氛圍，是發展去中心化區塊鏈的溫床，在今年為期一週的Berlin Blockchain Week(BBW)裡，我報名參加了幾場活動，活動中我主要著重於了解Web3和Dapps有關UI/UX的探討，並整理了一些自己的Note和Takeaway。
 
 <br/>
 ## How Web3 will be better than Web2?
