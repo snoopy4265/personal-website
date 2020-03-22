@@ -84,10 +84,10 @@ input:focus, textarea:focus {
 	border-bottom: 1px solid #555;
 }
 
-/* .portfolio-content img {
+.portfolio-content p>img {
 	width: 100%;
 	height: auto;
-} */
+}
 
 .navbar-brand {
 	font-family: 'Open Sans', sans-serif;

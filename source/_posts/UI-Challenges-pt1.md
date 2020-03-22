@@ -1,6 +1,6 @@
 ---
 title: 20 Days of UI Challenge (pt.1)
-date: 2019-05-01 20:30:50
+date: 2019-05-26 00:54:18
 categories: portfolio
 tags:
   - portfolio
