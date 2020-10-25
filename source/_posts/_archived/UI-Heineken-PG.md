@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/heineken-mockup_final-all.jpg
+hidden: ture
 ---
 <p style="color:#aaa;">Client: Heineken | Year: 2014</p>
 

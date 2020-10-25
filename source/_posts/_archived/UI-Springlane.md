@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/springlane.jpg
+hidden: ture
 ---
 <p style="color:#aaa;">Springlane Intern | Year: 2014</p>
 

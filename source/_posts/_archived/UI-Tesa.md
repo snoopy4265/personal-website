@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/tesa-show-1.jpg
+hidden: ture
 ---
 <p style="color:#aaa;">Client: TeSA | Year: 2015</p>
 

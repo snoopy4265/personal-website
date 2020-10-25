@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/neighbours.JPG
+hidden: ture
 ---
 <p style="color:#aaa;">Master Project | Year: 2018</p>
 

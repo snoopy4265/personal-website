@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/subscribe.png
+hidden: ture
 ---
 <p style="color:#aaa;">Personal Work | Year: 2016</p>
 
