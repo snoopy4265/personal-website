@@ -1,70 +1,107 @@
 ---
-title: UI-DappPocket
-date: 2020-03-21 17:53:28
+title: MYMY Catering
+date: 2020-10-21 17:53:28
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/DappPocket-demo.png
+cover_image: /images/MYMY-demo.jpg
 ---
+<h3 class="mb-0 text-center font-weight-bold">Improving online catering overall user experience</h3>
+<p class="text-muted text-center">MYMY catering | Year: 2020</p>
 
-<p style="color:#aaa;">Client: Dapp Pocket | Year: 2019</p>
+</br>
+</br>
 
-[Dapp Pocket](https://www.dapppocket.io/) is a popular crypto wallet in Taiwan, the U.S. and Southeast Asia. It allows users to manage cryptocurrencies (ETH, TRX), tokens (ERC-20) and collectibles (ERC-721) easily and securely in their phones. Also, it provides a browser of Dapp (Blockchain App) for users to enjoy up to 2000+ Blockchain games, DeFi apps and marketplaces right on their mobile devices.
-
-### Wireframe
-Focused on communicating functionality, architecture and content.
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:80px;">
-<img src="https://www.dropbox.com/s/secmrymk74c1v0w/W_Pocket_Overview.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/9k1zkigjjuwiimn/W_Pocket_Detail_1.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/diy3hyxidzd7ggt/W_Pocket_Detail_2.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/0cr9mujpbbq0xca/W_Pocket_Transfer_Confirm_SelectNetworkFee.png?raw=1" width="160px" height="auto"/>
+### Overview
+[MYMY catering](https://www.mymycatering.com/en-de/) is an international catering service for business and private customers alike. Early 2020, after the first version of the website was built, the whole company would like to better understand how users engage with the website, navigate and how intuitive it is. We, the product team, was then assigned to run an user experience analysis. 
+<mark>**The goal is expected to deliver recommendations for improving our digital product, food product and content.**</mark>
+<div class="row mb-5">
+  <div class="col-6 col-md-3">
+    <strong><i class="fas fa-suitcase"></i> My Role</strong>
+    UI/UX Designer
+  </div>
+  <div class="col-6 col-md-3">
+    <strong><i class="fas fa-user-friends"></i> The Team</strong>
+    1x UI/UX Designer
+    2x Developers
+    1x Product Manager
+  </div>
+  <div class="col-6 col-md-3">
+    <strong><i class="fas fa-tools"></i> Tools Used</strong>
+    Google Analytics
+    Hotjar
+    Sketch
+  </div>
+  <div class="col-6 col-md-3">
+    <strong><i class="fas fa-tasks"></i> Key Contribution</strong>
+    User Research
+    Data Analysis
+    Insights Define
+    Project Management
+    Solutions Implement
+  </div>
 </div>
 
-### Design Moodboard Pitch
-I created 3 versions of design from selected screens to let the Dapp Pocket team to choose their prefer style.
-<div style="text-align:center;margin-bottom:80px;">
-<img src="https://www.dropbox.com/s/ztafob1tt4nsu92/Dapp%20pocket%20demo.png?raw=1" width="100%" height="auto" />
-<img src="https://www.dropbox.com/s/pjfmayf5k7wbgod/dapp%20pocket%20demo%203.png?raw=1" width="100%" height="auto" />
-<img src="https://www.dropbox.com/s/wrjjaqmolbotg7o/dapp%20pocket%20demo%202.png?raw=1" width="100%" height="auto" />
+</br>
+</br>
+
+### Process
+<img src="https://www.dropbox.com/s/bu5is03i8hm4ewv/MYMY%20process.png?raw=1" width="100%" height="auto"/>
+
+</br>
+</br>
+
+### Identify Our Best Users
+<h4 class="mb-0 text-center font-weight-bold"><mark>German Desktop Users From Organic Search</mark></h4>
+We've used **Hotjar** to collect 100 video footages about users using MYMY Catering website. Due to limited time and resources, I only want to focus on videos that are from our best users to make sure our improvement can maximise its effectiveness. So called **best users** means users that are numerous and generate the most profit to the site. 
+
+By looking at the data in **Google Analytic**, I can identify our best users are mostly from **Germany** coming from **organic Search**. I also found that although mobile brought the most traffic, **desktop users** turned out generated the most profit. The reason behind might be users nowadays mainly use mobile on browsing, while they still tend to use desktop to make sensitive decisions or placing orders.
+
+<img src="https://www.dropbox.com/s/agddonlsfcfdi6d/MYMY%201.jpg?raw=1" width="100%" height="auto"/>
+<p class="text-muted text-center">According to Google Analytic, I summarized our best users are German Desktop Users From Organic Search</p>
+
+</br>
+</br>
+</br>
+
+### Define Our Challenges
+Based on the best users criteria, 100 video footages are filtered down to 9 and been observed closely.
+<img src="https://www.dropbox.com/s/ybtj8r66bck39k6/MYMY%202.jpg?raw=1" width="100%" height="auto"/>
+
+I sorted common user painpoints amongst the observation and found couple insights that we could focuse on.
+<div class="row">
+  <div class="col-12 col-md-6">
+    <strong><i class="fas fa-search"></i> Insight #1</strong>
+    <h3 class="text-left">
+      <mark>Lack of information</mark>
+    </h3>
+  </div>
+  <div class="col-12 col-md-6">
+    Because catering order prices are usually huge, users tend to be more careful on placing orders. They spent time double checking order items and comparing the best option but the current website cannot provide enough information for them to decide if the product meets their qualifications.<mark style="color: black;">
+      <strong>Challenge:</strong>
+      **How might we give customers a better insight of what the food looks like, taste like and help them make decisions?**
+    </mark>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-6">
+    <strong><i class="fas fa-search"></i> Insight #2</strong>
+    <h3 class="text-left">
+      <mark>Browsing > Buying</mark>
+    </h3>
+  </div>
+  <div class="col-12 col-md-6">
+    Most of the users landed on our website began with browsing purpose. However, the availability check on the homepage keep many users from entering the funnel. Users also do not clearly see our USPs on the homepage, nor do they scroll down and discover other useful content.<mark style="color: black;">
+      <strong>Challenge:</strong>
+      **How might we 'sell' MYMY catering more on the homepage above the fold and encourage the customer to explore more of the website?**
+    </mark>
+  </div>
 </div>
 
-### Mockup
-Full mockup screens here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
-* **Onboarding Screens**
+</br>
+</br>
+</br>
 
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:10px;">
-<img src="https://www.dropbox.com/s/13anh35wwnyaitk/FTU_Splash.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/1eced4lsy9aedi6/FTU_SignIn_01.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/bz67hcjn08hap2l/FTU_SignIn_02.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/8o7fhw750wahgc6/FTU_SignIn_03.png?raw=1" width="160px" height="auto"/>
-</div>
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:80px;">
-<img src="https://www.dropbox.com/s/8vnyha8b063zjr4/FTU_SignIn_New_RecoveryPhrase_1.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/dnn9akfk7yizrcu/FTU_SignIn_New_RecoveryPhrase_2.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/dawtjpxymt7be9j/FTU_SignIn_New_PIN_4.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/1cmxrjwwvoaubpv/FTU_SignIn_Success.png?raw=1" width="160px" height="auto"/>
-</div>
-
-* **Pocket Screens**
-
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:10px;">
-<img src="https://www.dropbox.com/s/bact885mnjb30mk/Pocket_Overview.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/lf7z6uo48ta1eiy/Pocket_Overview_Scroll.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/bzf441pmhchxy70/Pocket_Detail_1.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/bgttf89hmnbv0vd/Pocket_Detail_1_Scroll.png?raw=1" width="160px" height="auto"/>
-</div>
-<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:80px;">
-<img src="https://www.dropbox.com/s/iake0d2eed3mnmh/Pocket_Transfer.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/m8ytko268nb2fu3/Pocket_Transfer_SelectAccount.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/rti3zoozry9dj0z/Pocket_Transfer_Confirm.png?raw=1" width="160px" height="auto"/>
-<img src="https://www.dropbox.com/s/yy3x3qm0w6hrkty/Pocket_Transfer_Success.png?raw=1" width="160px" height="auto"/>
-</div>
-
-### Prototype
-Full prototype here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
-
-<div style="text-align:center;margin-bottom:40px;">
-<video id="video"  preload="auto" autoplay loop>
-<source id="mp4" src="/images/DappPocket-Trasfer-Prototype.mp4" type="video/mp4">
-</video>
-</div>
+### From Findings to Features
+<img src="https://www.dropbox.com/s/je3wt2qucnne04w/MYMY%203.png?raw=1" width="100%" height="auto"/>
+<img src="https://www.dropbox.com/s/ardsoeggcv5gwyv/MYMY%204.png?raw=1" width="100%" height="auto"/>

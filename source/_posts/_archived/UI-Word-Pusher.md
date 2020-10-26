@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/word-pusher.png
+hidden: true
 ---
 
 <p style="color:#aaa;">Personal Work | Year: 2017</p>

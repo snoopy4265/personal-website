@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/coboard.jpg
+hidden: true
 ---
 <p style="color:#aaa;">Master Project | Year: 2017</p>
 

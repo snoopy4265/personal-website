@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/spellcheck-pusher.png
+hidden: true
 ---
 <p style="color:#aaa;">Master Project | Year: 2017</p>
 
