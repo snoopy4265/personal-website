@@ -118,6 +118,7 @@ Inside our funnel, I added several informative feautres to users. We also collab
 </br>
 
 ### Final Design and Takeaways
+<img src="https://www.dropbox.com/s/vp6mm4x5hf76m0f/MYMY%20homepage.png?raw=1" width="100%" height="auto"/>
 We implemented most of the short term solutions based on our findings from user research. There are as well as some long term action items which were already recorded down as Jira tickets and will be addressed in the near future. In the end, the leadership were very pleased with the recommendations we suggested and found them really helpful and are great initiatives. 
 
 </br>
