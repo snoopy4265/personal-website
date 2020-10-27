@@ -22,7 +22,7 @@ ePRO, so called electronic Patient-Reported Outcome, is mainly used in clinical 
   </div>
   <div class="col-6 col-md-3">
     <strong><i class="fas fa-user-friends"></i> The Team</strong>
-    2x UI/UX Designer
+    2x UI/UX Designers
     3x Developers
     1x Product Manager
   </div>
@@ -54,15 +54,21 @@ ePRO, so called electronic Patient-Reported Outcome, is mainly used in clinical 
 ### User Research and Problem Statement
 To start off, we conducted a user research by interviewing one of the manager in CRO (Clinical Research Organization) – KCR. KCR is actually our client in this case who request us to build ePRO. Although ePRO's end users would be patients, but due to privacy concerns, we were unable to get in touch with patients. Fortunately, the KCR manager fully grasped the patient's condition based on her experienced observation and provided a relatively clear and detailed description of the patient's pain points.
 
-Here are the main pain points we found out from the interview:
+Here are the main painpoints we found out from the interview:
 <div class="row">
   <div class="col-12 col-md-6">
-    <strong><i class="fas fa-search"></i> Painpoint #1</strong><h6 class="text-left font-weight-bold"><mark>Patients often forgot when shall they enter their data even though they have been told several times before by doctor.</mark>
-    </h6>
+    <strong><i class="fas fa-search"></i> Painpoint #1</strong>
+    <div class="text-center">
+      <img src="/images/undraw_complete_task_u2c3.svg" width="auto" height="150px" />
+    </div>
+    <h6 class="text-left font-weight-bold"><mark>Patients often forgot when shall they enter their data even though they have been told several times before by doctor.</mark></h6>
   </div>
   <div class="col-12 col-md-6">
-    <strong><i class="fas fa-search"></i> Painpoint #2</strong><h6 class="text-left font-weight-bold"><mark>Patients often failed to complete their data entries, causing those data can’t be used for study.</mark>
-    </h6>
+    <strong><i class="fas fa-search"></i> Painpoint #2</strong>
+    <div class="text-center">
+      <img src="/images/undraw_accept_tasks_po1c.svg" width="auto" height="150px" />
+    </div>
+    <h6 class="text-left font-weight-bold"><mark>Patients often failed to complete their data entries, causing those data can’t be used for study.</mark></h6>
   </div>
 </div>
 
@@ -73,8 +79,8 @@ Here are the main pain points we found out from the interview:
 ### Persona and Insight
 <h4 class="mb-0 text-center font-weight-bold"><mark>Users need a way to inform themselves when and how many entries they need to enter and stay concentrated while doing it.</mark></h4>
 After the interview, I first created a provisional persona to help myself better imagine the ePRO usage scenario. This persona was something that I came back to throughout the project to guide my design decisions and priorities.
-<div class="text-center">
-  <img src="https://drive.google.com/uc?export=view&id=1cNrKcX5kzka8YWUqVM7WB2_Q02v1FjnQ" width="auto" height="500px" />
+<div class="col-12 col-md-11 mx-auto text-center">
+  <img src="https://drive.google.com/uc?export=view&id=1cNrKcX5kzka8YWUqVM7WB2_Q02v1FjnQ" width="100%" height="auto" />
 </div>
 
 </br>
@@ -163,8 +169,8 @@ There are two features we decided to focus on ideating in order to achieve our i
 ### Test and Refine
 <h4 class="mb-0 text-center font-weight-bold"><mark>Changed the text ”morning/during night” to “certain time left”.</mark></h4>
 We did several internal tests by uploading our Med-fi mockups to InVision and let people in KCR to test them out. They provided us some feedbacks, especially on the calendar feature. As mentioned before, it's really important that patients enter data at the right time period, forbidding forward and back filling. The Med-fi calendar mockup shows "when" shall the entry be taken, ex: morning or during night. But this doesn't show urgency to users. For example, in the morning, users probably know they need to enter their data during night, yet lots of things happened during the day and they are likely to forget their data entry if no one continue to remind them.
-<div class="text-center">
-  <img src="https://www.dropbox.com/s/kwtmi09h34mfjsf/ePRO%202.png?raw=1" width="auto" height="600px" />
+<div class="col-12 col-md-11 mx-auto text-center">
+  <img src="https://www.dropbox.com/s/kwtmi09h34mfjsf/ePRO%202.png?raw=1" width="100%" height="auto" />
   <p class="text-muted">Colors were also applied to indicate urgency ( blue for > 1 hr, amber for within 1 hr, red for < 1 hr ).</p>
 </div>
 
@@ -183,3 +189,5 @@ We did several internal tests by uploading our Med-fi mockups to InVision and le
 </div>
 
 ePRO is a powerful tool for patients to complete their data entries for clinical trial from anywhere without subjecting to their hospital visits. Ensuring patients complete data entries within specified time is one of the biggest requirements and challenges. But patients are human too, human often forget things and lose patience with tedious questionnaire. So it's important to remind users rather than hoping them to remember by themselves and make the data entry flow friction-less as possible. Sometimes a change as small as adding animations or changing texts can make a difference.
+
+</br>

@@ -1,14 +1,15 @@
 ---
-title: Build word pusher to learn German
+title: Word Pusher
 date: 2019-05-24 11:13:37
 categories: portfolio
 tags:
   - portfolio
 cover_image: /images/word-pusher.png
-hidden: true
 ---
+<h3 class="mb-0 text-center font-weight-bold">Building German Learning Application</h3>
+<p class="text-muted text-center">Personal Side Project | Year: 2017</p>
 
-<p style="color:#aaa;">Personal Work | Year: 2017</p>
+</br>
 
 **[Demo link](https://pcwu.github.io/word-pusher/)**
 **[Source Code](https://github.com/pcwu/word-pusher)**

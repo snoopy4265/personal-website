@@ -119,9 +119,14 @@ input:focus, textarea:focus {
 	right: 0rem;
 }
 
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+	background-color: transparent;
+	outline: none;
+}
+
 .portfolio-img {
 	width: 100%;
-	max-height: 250px;
+	max-height: 350px;
 	display: block;
 	object-fit: cover;
 }

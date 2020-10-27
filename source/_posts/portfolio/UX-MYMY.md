@@ -73,20 +73,6 @@ I sorted common user painpoints amongst the observation and found couple insight
   <div class="col-12 col-md-6">
     <strong><i class="fas fa-search"></i> Insight #1</strong>
     <h3 class="text-left">
-      <mark>Lack of information</mark>
-    </h3>
-  </div>
-  <div class="col-12 col-md-6">
-    Because catering order prices are usually huge, users tend to be more careful on placing orders. They spent time double checking order items and comparing the best option but the current website cannot provide enough information for them to decide if the product meets their qualifications.<mark style="color: black;">
-      <strong>Challenge:</strong>
-      **How might we give customers a better insight of what the food looks like, taste like and help them make decisions?**
-    </mark>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12 col-md-6">
-    <strong><i class="fas fa-search"></i> Insight #2</strong>
-    <h3 class="text-left">
       <mark>Browsing > Buying</mark>
     </h3>
   </div>
@@ -97,11 +83,42 @@ I sorted common user painpoints amongst the observation and found couple insight
     </mark>
   </div>
 </div>
+<div class="row">
+  <div class="col-12 col-md-6">
+    <strong><i class="fas fa-search"></i> Insight #2</strong>
+    <h3 class="text-left">
+      <mark>Lack of information</mark>
+    </h3>
+  </div>
+  <div class="col-12 col-md-6">
+    Because catering order prices are usually huge, users tend to be more careful on placing orders. They spent time double checking order items and comparing the best option but the current website cannot provide enough information for them to decide if the product meets their qualifications.<mark style="color: black;">
+      <strong>Challenge:</strong>
+      **How might we give customers a better insight of what the food looks like, taste like and help them make decisions?**
+    </mark>
+  </div>
+</div>
 
 </br>
 </br>
 </br>
 
 ### From Findings to Features
+With all my research and insights in mind, I started scribbling some sketches on paper. For homepage, I did several changes to smoothen browsing experiences:
+<img src="https://www.dropbox.com/s/6x1ucden86ps8uq/MYMY%205.png?raw=1" width="100%" height="auto"/>
+
+</br>
+
+Inside our funnel, I added several informative feautres to users. We also collaborated with marketing team to provide more detailed product description on each item.
 <img src="https://www.dropbox.com/s/je3wt2qucnne04w/MYMY%203.png?raw=1" width="100%" height="auto"/>
+</br>
 <img src="https://www.dropbox.com/s/ardsoeggcv5gwyv/MYMY%204.png?raw=1" width="100%" height="auto"/>
+
+</br>
+</br>
+</br>
+
+### Final Design and Takeaways
+We implemented most of the short term solutions based on our findings from user research. There are as well as some long term action items which were already recorded down as Jira tickets and will be addressed in the near future. In the end, the leadership were very pleased with the recommendations we suggested and found them really helpful and are great initiatives. 
+
+</br>
+

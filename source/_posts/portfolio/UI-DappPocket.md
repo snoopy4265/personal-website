@@ -1,15 +1,22 @@
 ---
-title: UI-DappPocket
+title: DappPocket
 date: 2020-03-21 17:53:28
 categories: portfolio
 tags:
   - portfolio
 cover_image: /images/DappPocket-demo.png
 ---
+<h3 class="mb-0 text-center font-weight-bold">DappPocket User Interface Design</h3>
+<p class="text-muted text-center">Client: Dapp Pocket | Year: 2019</p>
 
-<p style="color:#aaa;">Client: Dapp Pocket | Year: 2019</p>
+</br>
+</br>
 
+### Overview
 [Dapp Pocket](https://www.dapppocket.io/) is a popular crypto wallet in Taiwan, the U.S. and Southeast Asia. It allows users to manage cryptocurrencies (ETH, TRX), tokens (ERC-20) and collectibles (ERC-721) easily and securely in their phones. Also, it provides a browser of Dapp (Blockchain App) for users to enjoy up to 2000+ Blockchain games, DeFi apps and marketplaces right on their mobile devices.
+
+</br>
+</br>
 
 ### Wireframe
 Focused on communicating functionality, architecture and content.
@@ -20,16 +27,32 @@ Focused on communicating functionality, architecture and content.
 <img src="https://www.dropbox.com/s/0cr9mujpbbq0xca/W_Pocket_Transfer_Confirm_SelectNetworkFee.png?raw=1" width="160px" height="auto"/>
 </div>
 
+</br>
+</br>
+
 ### Design Moodboard Pitch
 I created 3 versions of design from selected screens to let the Dapp Pocket team to choose their prefer style.
-<div style="text-align:center;margin-bottom:80px;">
-<img src="https://www.dropbox.com/s/ztafob1tt4nsu92/Dapp%20pocket%20demo.png?raw=1" width="100%" height="auto" />
-<img src="https://www.dropbox.com/s/pjfmayf5k7wbgod/dapp%20pocket%20demo%203.png?raw=1" width="100%" height="auto" />
-<img src="https://www.dropbox.com/s/wrjjaqmolbotg7o/dapp%20pocket%20demo%202.png?raw=1" width="100%" height="auto" />
+<div class="row">
+  <div class="col-12 col-md-4">
+    <img src="https://www.dropbox.com/s/ztafob1tt4nsu92/Dapp%20pocket%20demo.png?raw=1" width="100%" height="auto" />
+  </div>
+  <div class="col-12 col-md-4">
+    <img src="https://www.dropbox.com/s/pjfmayf5k7wbgod/dapp%20pocket%20demo%203.png?raw=1" width="100%" height="auto" />
+  </div>
+  <div class="col-12 col-md-4">
+    <img src="https://www.dropbox.com/s/wrjjaqmolbotg7o/dapp%20pocket%20demo%202.png?raw=1" width="100%" height="auto" />
+  </div>
 </div>
 
+</br>
+</br>
+</br>
+
 ### Mockup
-Full mockup screens here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
+<h4 class="mb-0 text-center font-weight-bold"><mark>Full mockup screens here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**</mark></h4>
+
+</br>
+
 * **Onboarding Screens**
 
 <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:10px;">
@@ -44,6 +67,8 @@ Full mockup screens here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
 <img src="https://www.dropbox.com/s/dawtjpxymt7be9j/FTU_SignIn_New_PIN_4.png?raw=1" width="160px" height="auto"/>
 <img src="https://www.dropbox.com/s/1cmxrjwwvoaubpv/FTU_SignIn_Success.png?raw=1" width="160px" height="auto"/>
 </div>
+
+</br>
 
 * **Pocket Screens**
 
@@ -60,9 +85,10 @@ Full mockup screens here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
 <img src="https://www.dropbox.com/s/yy3x3qm0w6hrkty/Pocket_Transfer_Success.png?raw=1" width="160px" height="auto"/>
 </div>
 
-### Prototype
-Full prototype here: **[Sketch Cloud](https://sketch.cloud/s/dMDAb)**
+</br>
+</br>
 
+### Prototype
 <div style="text-align:center;margin-bottom:40px;">
 <video id="video"  preload="auto" autoplay loop>
 <source id="mp4" src="/images/DappPocket-Trasfer-Prototype.mp4" type="video/mp4">
