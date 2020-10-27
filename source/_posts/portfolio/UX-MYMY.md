@@ -115,7 +115,6 @@ Inside our funnel, I added several informative feautres to users. We also collab
 
 </br>
 </br>
-</br>
 
 ### Final Design and Takeaways
 <img src="https://www.dropbox.com/s/vp6mm4x5hf76m0f/MYMY%20homepage.png?raw=1" width="100%" height="auto"/>
