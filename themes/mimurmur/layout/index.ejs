@@ -1,62 +1,155 @@
-<div class="container-fluid">
-  <div class="page-wrapper">
-    <section class="section0"></section>
-    <section class="section1">
-      <div class="image-wrapper">
-        <% site.categories.findOne({name: 'portfolio'}).posts.sort('date', -1).limit(5).each(function(post){ %>
-        <div class="img" style="background-image: url('<%- post.cover_image%>')"></div>
-        <% }) %>
+<div class="container">
+  <div id="hero" class="hero">
+    <div class="hero-text">
+      <h1 class="display-4">Hi👋 I’m Michelle Wu, UI/UX Designer based in Berlin.</h1>
+      <h5>I focus working on digital products with startups, </br>solving business problems with thoughtful interfaces; </br>designing in a programmatic way.</h5>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/michelle.wu.980" target="_blank">
+          <i class="fab fa-facebook-f" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/snoopy4265/" target="_blank">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="https://dribbble.com/snoopy4265" target="_blank">
+          <i class="fab fa-dribbble" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/snoopy4265" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://medium.com/@michellewu" target="_blank">
+          <i class="fab fa-medium-m" aria-hidden="true"></i>
+        </a>
       </div>
-      <div class="indicator-wrapper">
-        <div class="indicator">01</div>
-        <div class="indicator">02</div>
-        <div class="indicator">03</div>
-        <div class="indicator">04</div>
-        <div class="indicator">05</div>
-      </div>
-      <div class="strapline1">My name is Michelle Wu. </br>I'm a -</div>
-      <div class="strapline2">Work since </br>2019 -</div>
-        <div class="content-wrapper">
-          <div class="content">
-            <h1>Designer</h1>
-            <a class="button" href="/portfolio">View Portfolio →</a>
-        </div>
-      </div>
-    </section>
-    <section class="section2">
-      <% site.categories.findOne({name: 'blog'}).posts.sort('date', -1).limit(2).each(function(item){ %>
-        <div class="hovereffect">
-          <a href="<%- config.root %><%- item.path %>">
-            <img class="img-fluid portfolio-img" src="<%- item.cover_image || theme.default_cover_image %>" alt="<%- item.title || theme.default_post_title || "Untitled" %>">
-            <div class="overlay">
-              <span class="overlay-text"><%- item.title || theme.default_post_title || "Untitled" %></span>
-            </div>
-          </a>
-        </div>
-      <% }) %>
-      <div class="strapline1">In my spare time, I decided to write a blog to record my life path -</div>
-      <div class="strapline2">So,</br>I'm also a -</div>
-      <div class="content-wrapper">
-        <div class="content">
-          <h1>Blogger</h1>
-          <a class="button" href="/blog">View Blog →</a>
-        </div>
-      </div>
-      <div class="featured">
-        Recently</br>Added
-        <svg class="line" height="10" width="210">
-          <line x1="0" y1="0" x2="210" y2="0" style="stroke:rgb(0,0,0);stroke-width:5" />
-        </svg>
-      </div>
-    </section>
-
-    <section class="section3 col-md-10 col-12">
-      <div class="strapline">
-        I'm addicted to beautiful stuffs.</br>
-        So I draw, to visualize my fantasy. So I write to record impressive memories.</br>
-        So I photograph, to capture dazzling moments. So I travel, to see the splendid world.</br>
-        If you have any cool ideas, ping me a message, let's talk!
-      </div>
-    </section>
+    </div>
+    <img src="/images/Portrait.png" alt="portrait" class="portrait">
+    <img src="/images/ellipse.png" alt="ellipse" class="ellipse">
   </div>
 </div>
+<div class="dark-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h2>Works .</h2>
+        <h4>UI/UX Designer <a href="https://www.mymycatering.com/de-de/" target="_blank">@MYMY Catering</a></h4>
+        <h4>UX Engineer <a href="https://clincase.com/" target="_blank">@Clincase</a></h4>
+        <h4>Frontend Designer <a href="#" target="_blank">@UniSharp</a></h4>
+      </div>
+      <div class="col-6">
+        <h2>Activities .</h2>
+        <h4>Talk: Full on Front-End <a href="https://www.meetup.com/Le-Wagon-Berlin-Coding-Bootcamp/events/270583916/" target="_blank">@Talk w/ Le Wagon Berlin</a></h4>
+        <h4>Exibition: The Neighbours <a href="https://universum-bremen.de/" target="_blank">@Universum Bremen</a></h4>
+        <h4>Workshop: UX Seminar</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">MYMY Catering</h1>
+        <h5>MYMY catering is an international catering service for business and private customers alike.</h5>
+        <div class="skill-tag">Rebranding</div>
+        <div class="skill-tag">Design System</div>
+        <div class="skill-tag">User Research</div>
+        <div class="skill-tag">Web Design</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/MYMY.png" alt="mymycatering" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">Clincase ePRO</h1>
+        <h5>ePRO, so called electronic Patient-Reported Outcome, is mainly used in clinical trials for patients to complete the questionnaires and report their outcomes by electronic methods without subjecting to their hospital visits.</h5>
+        <div class="skill-tag">User Research</div>
+        <div class="skill-tag">App Design</div>
+        <div class="skill-tag">Prototype</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/ePRO.png" alt="ePRO" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">Dapp Pocket</h1>
+        <h5>Dapp Pocket is a popular crypto wallet in Taiwan, the U.S. and Southeast Asia.It allows users to manage cryptocurrencies, tokens and collectibles easily and securely in their phones.</h5>
+        <div class="skill-tag">App Design</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/DappPocket.png" alt="DappPocket" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">Netizaar</h1>
+        <h5>The idea of Netizaar is to create the future of social network and to advance the humanity. The target group is going to be celebrities in Hollywood.</h5>
+        <div class="skill-tag">App Design</div>
+        <div class="skill-tag">Design Guidelines</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/Netizaar.png" alt="Netizaar" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dark-block">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2>Personal Projects .</h2>
+        <h4>Below are projects I did during my study in<span class="pink">Digital Media Master Degree.</span> </br>I think they are<span class="pink">as cool as</span>the other projects I did after my graduation,</br> so I decided to put them here as well.</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">Spellcheck Pusher</h1>
+        <h5>A design project explores the possibilities to improve spellchecking experience in a creative way.</h5>
+        <div class="skill-tag">UI/UX Design</div>
+        <div class="skill-tag">Micro Interaction</div>
+        <div class="skill-tag">Vedio Animation</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/Spellcheck.png" alt="Spellcheck Pusher" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">The Neighbours</h1>
+        <h5>An interactive project that question the meaning of the neighbours. Technology gives us the possibility to become neighbour with people of different time and space. However, are these real interactions? Are we the neighbour close enough or simply far away?</h5>
+        <div class="skill-tag">Web Development</div>
+        <div class="skill-tag">Interaction Design</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/Neighbours.png" alt="The Neighbours" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="work">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="display-4">CoBoard</h1>
+        <h5>CoBoard expects to fill the lack of temperature and emotion in remote interaction. Furthermore, let people feel more connected to a loved one in an engaging way.</h5>
+        <div class="skill-tag">Web Development</div>
+        <div class="skill-tag">Interaction Design</div>
+        <div class="skill-tag">Respberry Pi</div>
+      </div>
+      <div class="col-12 col-md-6 offset-md-1">
+        <img src="/images/CoBoard.png" alt="CoBoard" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
