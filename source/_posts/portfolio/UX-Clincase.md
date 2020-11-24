@@ -4,7 +4,7 @@ date: 2020-07-27 20:11:04
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/ePro.png
+cover_image: /images/ePRO.png
 ---
 <h3 class="mb-0 text-center font-weight-bold">Enhance patient electronics diary entry user experience</h3>
 <p class="text-muted text-center">Clincase | Year: 2017-2019</p>
@@ -46,7 +46,7 @@ ePRO, so called electronic Patient-Reported Outcome, is mainly used in clinical 
 </br>
 
 ### Process
-<img src="https://www.dropbox.com/s/zpwty85go2osrad/ePRO%20process.png?raw=1" width="160px" height="auto"/>
+<img src="https://www.dropbox.com/s/zpwty85go2osrad/ePRO%20process.png?raw=1" width="100%" height="auto"/>
 
 </br>
 </br>
