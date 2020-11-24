@@ -2,25 +2,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<!-- Homepage Slideshow -->
+<!-- Page Loaded Content Reveal Animation-->
 <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("img");
-  var y = document.getElementsByClassName("indicator");
-  for (i = 0; i < x.length; i++) {
-    x[i].classList.add('hideSlide');
-  }
-  for (i = 0; i < y.length; i++) {
-    y[i].classList.add('hideIndex');
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].classList.remove('hideSlide');
-  y[myIndex-1].classList.remove('hideIndex');
-  setTimeout(carousel, 3000); // Change image every 2 seconds
-}
+window.addEventListener("load", () => {
+ document.querySelector("body").classList.add("loaded"); 
+});
 </script>

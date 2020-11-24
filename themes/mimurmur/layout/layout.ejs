@@ -4,16 +4,24 @@
   <%- partial('_partial/head') %>
 
   <body>
-  	<div class="container-fluid navbar-container">
-      <!-- Header -->
-      <%- partial('_partial/header') %>
+  	<div class="container-fluid">
+      <header class="page-header">
+        <!-- Header -->
+        <%- partial('_partial/header') %>
+      </header>
     </div>
     
-    <%- body %>
-
-    <!-- Footer -->
-    <%- partial('_partial/pre-footer') %>
-    <!-- After footer scripts -->
-    <%- partial('_partial/footer') %>
+    <main class="page-main">
+      <%- body %>
+    </main>
+    
+    <div class="container-fluid">
+      <footer class="page-footer">
+        <!-- Footer -->
+        <%- partial('_partial/pre-footer') %>
+        <!-- After footer scripts -->
+        <%- partial('_partial/footer') %>
+      </footer>
+    </div>
   </body>
 </html>
