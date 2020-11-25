@@ -229,9 +229,7 @@ p>img {
 	text-transform: uppercase;
 	color: #0e0e2c;
 	font-weight: 700;
-	/* font-size: 0.8rem;
-	
-	letter-spacing: 1.5px; */
+	font-size: 1rem;	
 }
 
 .navbar-toggler {

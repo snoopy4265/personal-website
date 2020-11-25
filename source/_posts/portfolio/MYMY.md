@@ -37,7 +37,7 @@ At the meantime, I was designing the user interfaces of our new website. The lea
 
 </br>
 
-### User Experience Analysis
+<h3 class="mb-0">User Experience Analysis</h3>
 Our MVP rolled out on July 4th. After the first version of the website was built, the whole company would like to better understand how users engage with the website, navigate and how intuitive it is. We, the product team, was then assigned to run an user experience analysis. 
 <mark>**The goal is expected to deliver recommendations for improving our digital product, food product and content.**</mark>
 <div class="row mb-5">
