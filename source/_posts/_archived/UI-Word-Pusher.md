@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/word-pusher.png
+hidden: true
 ---
 <h3 class="mb-0 text-center font-weight-bold">Building German Learning Application</h3>
 <p class="text-muted text-center">Personal Side Project | Year: 2017</p>

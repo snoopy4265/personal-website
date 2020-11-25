@@ -4,7 +4,7 @@ date: 2019-07-20 20:11:04
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/spellcheck-pusher.png
+cover_image: /images/Spellcheck.png
 ---
 <h3 class="mb-0 text-center font-weight-bold">Improve spellchecking experience</h3>
 <p class="text-muted text-center">Master Project | Year: 2017</p>

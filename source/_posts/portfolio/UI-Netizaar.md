@@ -4,7 +4,7 @@ date: 2020-03-22 17:53:28
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/Netizaar-demo.jpg
+cover_image: /images/Netizaar.png
 ---
 <h3 class="mb-0 text-center font-weight-bold">Netizaar User Interface Design & Design System</h3>
 <p class="text-muted text-center">Client: Netizaar | Year: 2020</p>

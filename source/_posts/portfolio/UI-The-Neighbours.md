@@ -4,8 +4,7 @@ date: 2019-05-24 12:34:44
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/neighbours.JPG
-hidden: ture
+cover_image: /images/Neighbours.png
 ---
 <p style="color:#aaa;">Master Project | Year: 2018</p>
 

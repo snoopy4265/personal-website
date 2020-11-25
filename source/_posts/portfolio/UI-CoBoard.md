@@ -4,8 +4,7 @@ date: 2019-05-22 23:26:59
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/coboard.jpg
-hidden: true
+cover_image: /images/CoBoard.png
 ---
 <p style="color:#aaa;">Master Project | Year: 2017</p>
 

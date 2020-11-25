@@ -4,7 +4,7 @@ date: 2020-03-21 17:53:28
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/DappPocket-demo.png
+cover_image: /images/DappPocket.png
 ---
 <h3 class="mb-0 text-center font-weight-bold">DappPocket User Interface Design</h3>
 <p class="text-muted text-center">Client: Dapp Pocket | Year: 2019</p>
