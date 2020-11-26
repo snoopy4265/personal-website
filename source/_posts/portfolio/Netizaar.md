@@ -45,7 +45,7 @@ I also created a design system for Netizaar. Design system is a set of deliverab
 </br>
 </br>
 
-### Developer Handout
+### Developer Handoff
 Since Netizaar has a holistic design system, this can make developers easier to follow design guidelines without being confused or asking back and forth about design while developing. I use Zeplin to handout my design to developers currently. However, I plan to gradually migrate the whole project from Sketch to Figma. By the time, I will no longer need to export design to Zeplin, instead ask developers to view directly in Figma. 
 
 <img src="https://www.dropbox.com/s/vov2e2l13meozjs/Netizaar%202.png?raw=1" width="100%" height="auto"/>
