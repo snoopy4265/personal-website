@@ -2,7 +2,6 @@
 title: MYMY Catering
 date: 2020-10-21 17:53:28
 categories: portfolio
-hidden: ture
 tags:
   - portfolio
 cover_image: /images/MYMY.png
