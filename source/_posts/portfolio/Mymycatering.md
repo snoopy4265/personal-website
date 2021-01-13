@@ -13,7 +13,7 @@ cover_image: /images/MYMY.png
 </br>
 
 ### Rebranding & Rolling out MVP
-Early 2020, MeinWunschcatering GmbH rebranded as **[MYMY Catering](https://www.mymycatering.com/en-de/)**. In our rebranding design thinking workshop, we defined our brand vision and brand identity.
+Early 2020, MeinWunschcatering GmbH rebranded as **MYMY Catering**. In our rebranding design thinking workshop, we defined our brand vision and brand identity.
 
 <img src="https://www.dropbox.com/s/9m99n9ebvyo0hgt/IMG_4109.jpg?raw=1" width="100%" height="auto"/>
 <div class="row">
