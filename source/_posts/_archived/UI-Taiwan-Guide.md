@@ -5,7 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/unionpay-show-1_.jpg
-hidden: ture
+hidden: true
 ---
 <p style="color:#aaa;">Client: Unionpay | Year: 2015</p>
 

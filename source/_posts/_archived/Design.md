@@ -5,7 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/sunbath.png
-hidden: ture
+hidden: true
 ---
 Some graphic design works I did for fun.
 

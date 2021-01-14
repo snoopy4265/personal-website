@@ -5,6 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/MYMY.png
+hidden: true
 ---
 <h3 class="mb-0 text-center font-weight-bold">Improving online catering overall user experience</h3>
 <p class="text-muted text-center">MYMY catering | Year: 2020</p>

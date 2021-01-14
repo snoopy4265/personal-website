@@ -5,7 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/code-challenge.png
-hidden: ture
+hidden: true
 ---
 <p style="color:#aaa;">Personal Work | Year: 2018</p>
 

@@ -5,7 +5,7 @@ categories: portfolio
 tags:
   - portfolio
 cover_image: /images/boarding pass.png
-hidden: ture
+hidden: true
 ---
 <p style="color:#aaa;">Personal Work | Year: 2016</p>
 
