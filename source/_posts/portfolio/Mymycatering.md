@@ -93,7 +93,7 @@ By looking at the data in **Google Analytic**, I can identify our best users are
 Based on the best users criteria, 100 video footages are filtered down to 9 and been observed closely.
 <img src="https://www.dropbox.com/s/ybtj8r66bck39k6/MYMY%202.jpg?raw=1" width="100%" height="auto"/>
 
-I sorted common user painpoints amongst the observation and found couple insights that we could focuse on.
+I sorted common user painpoints amongst the observation and found couple insights that we could focus on.
 <div class="row">
   <div class="col-12 col-md-6">
     <strong><i class="fas fa-search"></i> Insight #1</strong>

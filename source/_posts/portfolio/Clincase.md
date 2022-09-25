@@ -4,7 +4,7 @@ date: 2020-07-27 20:11:04
 categories: portfolio
 tags:
   - portfolio
-cover_image: /images/ePRO.png
+cover_image: /images/ePro.png
 ---
 <h3 class="mb-0 text-center font-weight-bold">Enhance patient electronics diary entry user experience</h3>
 <p class="text-muted text-center">Clincase | Year: 2017-2019</p>
