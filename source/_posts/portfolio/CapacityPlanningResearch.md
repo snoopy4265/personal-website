@@ -54,14 +54,14 @@ At the beginning, we spent around 2 days aligning on the goal, scope and deliver
 
 ### Filling Knowledge Gaps
 <strong>User Interviews:</strong>
-We conducted 3 in-depth interviews with users to understand how they were currently planning for capacity. The interviews were led by me and the PM, together with the UIUX lead were assisting from side. We gave them realistic tasks to work on and asked them to think out loud during the process. Because they are experts in the field of production planning, we were able to map out the detailed user journey through the interviews with them, including the tools they use, the people they regularly contact, and the things they care about in order to get their job done. This not only helped us fill in the gaps in our knowledge about demand and capacity planning, but also gave us many valuable insights.
+We conducted 3 in-depth interviews with users to understand how they were currently planning for capacity. The interviews were driven and facilitaed by me. I gave the users realistic tasks to work on and asked them to think out loud during the process. Because they are experts in the field of production planning, we were able to map out the detailed user journey through the interviews with them, including the tools they use, the people they regularly contact, and the things they care about in order to get their job done. <mark>This not only helped us fill in the gaps in our knowledge about demand and capacity planning, but also gave us many valuable insights.</mark>
 
 <img src="https://www.dropbox.com/s/fvhv6lwxfb68qdc/Screenshot%202022-09-25%20at%2023.30.10.png?raw=1" width="100%" height="auto"/>
 <p class="text-muted text-center">One of our users was walking us through his capacity planning process</p>
 </br>
 
 <strong>Journey Mapping:</strong>
-Based on the user interviews, I then mapped out an end to end demand and capacity planning journey. Actually, there were user journey map done by past researches but it was either incomplete or outdated. One of our major achievements in this study was the completion of the user journey, which covered almost all aspects of the capacity planner's work. This is a great leap forward from our previous user journey map.
+Based on the user interviews, I then mapped out an end to end demand and capacity planning journey. Actually, there were user journey map done by past researches but it was either incomplete or outdated. <mark>One of our major achievements in this study was the completion of the user journey, which covered almost all aspects of the capacity planner's work. This is a great leap forward from our previous user journey map.</mark>
 
 <img src="https://www.dropbox.com/s/lyljds09c8ptj1p/Screenshot%202022-09-25%20at%2023.57.51.png?raw=1" width="100%" height="auto"/>
 <p class="text-muted text-center">Validating and updating user journey with the user</p>
@@ -84,9 +84,8 @@ Besides user interviews, we also conducted 3 stakeholder interviews to understan
   </div>
 </div>
 
-At the end of this discovery, I created a research report documenting all the things we learned and insights we collected. I shared this report with the whole software team and did a presentation in one of the software team sprint review sessions. The feedback was really positive. And I believe this research will help our team to better understand the capacity planner user group and the overall capacity planning process.
+At the end of this discovery, I created a research report documenting all the things we learned and insights we collected. <mark>I shared this report with the whole software team and did a presentation in one of the software team sprint review sessions. The feedback was really positive.</mark>
 
-This report aims to open up the discussion of opportunities around demand and capacity planning, support the product team to understand where Farmboard is today and plan for its future role throughout the capacity planning journey. 
-
+There were several next steps planned to take after this study. In order to build on this research, further opportunity mapping workshop still need to happen to define opportunities and make insights actionable. Wider decisions around how the insights translate to initiatives and feed into next quarter are still waiting for alignment from the leadership. <mark>Nevertheless, the outcome of this study along with insights collected could already be a solid foundation for driving any of these future discussion.</mark>
 </br>
 
