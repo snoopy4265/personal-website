@@ -431,3 +431,35 @@ footer {
 }
 
 /* ============================ End of Media Queries ====================================== */
+
+.dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	background-color: #0e0e2c;
+	display: inline-block;
+	margin-right: 8px;
+	margin-left: -32px;
+}
+
+.dot-title {
+	border-left: 1px solid #000;
+    height: 100%;
+    padding-left: 24px;
+}
+
+.dot-sub-title {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 4px;
+	margin-left: -5px;
+}
+
+.hbe-input-field-default {
+	color: #0e0e2c !important;
+}
+
+.hbe-input-label-default::before {
+	background-color: #eee !important;
+	top: -10px !important;
+}
