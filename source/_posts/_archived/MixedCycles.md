@@ -3,6 +3,7 @@ title: Infarm - Support Mixed Growing Cycles
 date: 2022-09-25 08:26:28
 password: michellewu2022
 categories: portfolio
+hidden: true
 tags:
   - portfolio
 cover_image: /images/infarm-2.png
