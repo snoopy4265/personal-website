@@ -148,3 +148,4 @@ We implemented most of the short term solutions based on our findings from user 
 
 </br>
 
+We rolled out the new design in our last release which is last Thursday 5.Nov. **It's kind of hard to look purely on system bookings to validate if the design was successful because the impact from Corona restriction.** We can't be sure whether bookings not increasing is due to the design or due  to restrictions. <mark>**But I have been monitoring the bounce rate of the homepage. Until today has dropped already 8%. In the long run, if I can get resources, I am planning to gather some users for interview and keep iterating.**</mark>
