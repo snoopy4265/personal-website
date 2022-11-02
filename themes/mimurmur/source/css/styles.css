@@ -45,6 +45,10 @@ blockquote {
   margin: 0 0 2em 0;
 }
 
+mark, .mark {
+	background-color: #76ff9f;
+}
+
 .pink {
 	color: #ed4b9e;
 	font-family: inherit;
@@ -120,7 +124,7 @@ blockquote {
 	color: inherit;
 	margin: 0 auto;
 	margin-top: 20px;
-	max-width: 960px;
+	max-width: 1200px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
