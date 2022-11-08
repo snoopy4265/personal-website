@@ -114,13 +114,12 @@ So to get started, we conducted **3 In-depth User Interviews + 3 Stakeholder Int
 </br>
 
 ### Define - Synthesise Insights & Determine Opportunities
-We synthesized our findings from discovery into insight cards, which included observations and evidence for future reference. We then used affinity diagrams to group the similar insights together.
 
 <div class="row justify-content-center align-items-center mb-5">
   <div class="col-12 col-md-6">
     <strong>Define</strong>
     <h3 class="text-left mb-0"><mark>Insight Cards & Affinity Diagram</mark></h3>
-    We synthesized our findings from discovery into insight cards, which included observations and evidence for future reference. We then used affinity diagrams to group the similar insights together. The main takeaways we got were:
+    We synthesized our findings from discovery into insight cards, which included observations and evidences for future reference. We then used affinity diagrams to group the similar insights together. The main takeaways we got were:
 
     **1. Our users used mainly third-party tool (spreadsheets) to collect demand and calculate high level capacity. Our software has gaps in supporting production planning.**
 
@@ -205,22 +204,32 @@ We synthesized our findings from discovery into insight cards, which included ob
 
 ### Deliver - Prototype & Testing
 <div class="row justify-content-center align-items-start mb-3">
-  <div class="col-12 col-md-6 mt-3">
+  <div class="col-12 col-md-6">
     <strong>Deliver</strong>
-    <h3 class="text-left mb-0"><mark>Design</mark></h3>
-    I created the design mockups by following the guidelines of our design system components. With the help of our design system, I was able to create mockups in a quick, easy, and inexpensive way. 
-
-    I also tried different versions of the design and asked other designers for feedback at our weekly UI/UX meetings.
+    <h3 class="text-left mb-0"><mark>Wireframing & Evaluation</mark></h3>
+    Based on the user flow identified from the user story mapping workshop, I created some lo-fi design. **Wireframing also allows me to visualise my thought and uncover some open questions that were not identified at the beginning.** 
+    
+    With the help of the visual references, we were able to approach the corresponding stakeholders either via email or meeting to clarify those open quesitons and evaluate the priliminary design in an efficient way.
   </div>
   <div class="col-12 col-md-6 pt-md-3">
-    <img src="https://www.dropbox.com/s/x883eg0roofc95v/Screenshot%202022-11-02%20at%2011.44.03.png?raw=1" width="100%" height="auto"/>
+    <img src="https://www.dropbox.com/s/pa91jh05ehcasio/Screenshot%202022-11-08%20at%2011.08.47.png?raw=1" width="100%" height="auto"/>
+  </div>
+</div>
+
+<div class="row justify-content-center align-items-start mb-5">
+  <div class="col-12 col-md-6 pt-md-5">
+    <img src="https://www.dropbox.com/s/71xet1x8w4f40uq/Screenshot%202022-11-08%20at%2015.22.30.png?raw=1" width="100%" height="auto"/>
+  </div>
+  <div class="col-12 col-md-6 mt-3">
+    <strong>Deliver</strong>
+    <h3 class="text-left mb-0"><mark>Design Exploration & Prototype</mark></h3>
+    For some key screens and user interactions, such as input schedule table or copy/paste, **I generally followed the guidelines of our design system, but also tried to explore some different possibilities or patterns.**
+
+    After trying out different versions of the design, I used the time in refinement meetings or UI/UX weekly feedback meeting to collect others' opinions to weigh in my design decision and create hi-fi design prototype.
   </div>
 </div>
 
 <div class="row justify-content-center align-items-center mb-5">
-  <div class="col-12 col-md-6 pt-md-5">
-    <img src="https://www.dropbox.com/s/1tmr3z2f1jjlw7e/Screenshot%202022-11-02%20at%2011.54.11.png?raw=1" width="100%" height="auto"/>
-  </div>
   <div class="col-12 col-md-6">
     <strong>Deliver</strong>
     <h3 class="text-left mb-0"><mark>Usability Testing</mark></h3>
@@ -228,18 +237,21 @@ We synthesized our findings from discovery into insight cards, which included ob
 
     Overall, the usability testings went well. **The users approved that the direction we were heading was correct. There were just a few minor tweaks that I needed to make.** So I adjusted my design based on their feedback and cleaned up the Figma file to be ready to hand over to the developers.
   </div>
+  <div class="col-12 col-md-6 pt-md-5">
+    <img src="https://www.dropbox.com/s/1tmr3z2f1jjlw7e/Screenshot%202022-11-02%20at%2011.54.11.png?raw=1" width="100%" height="auto"/>
+  </div>
 </div>
 
 <div class="row justify-content-center align-items-start mb-3">
+  <div class="col-12 col-md-6 pt-md-3">
+    <img src="https://www.dropbox.com/s/2vjwl42f8m76x7n/Screenshot%202022-11-02%20at%2011.58.36.png?raw=1" width="100%" height="auto"/>
+  </div>
   <div class="col-12 col-md-6 mt-3">
     <strong>Develop</strong>
     <h3 class="text-left mb-0"><mark>Developer Handoff</mark></h3>
     After design came to finalise, when handing off to the developers, **I tried my best to consider all possible error cases or unhappy paths and provided relative designs.** 
     
     I also have the habit of **flagging design statuses to make sure that when developers come to Figma, they know where to look at.**
-  </div>
-  <div class="col-12 col-md-6 pt-md-3">
-    <img src="https://www.dropbox.com/s/2vjwl42f8m76x7n/Screenshot%202022-11-02%20at%2011.58.36.png?raw=1" width="100%" height="auto"/>
   </div>
 </div>
 
