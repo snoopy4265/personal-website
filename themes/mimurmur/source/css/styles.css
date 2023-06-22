@@ -281,6 +281,7 @@ p>img {
 	bottom: 0;
 	width: 100%;
 	height: auto;
+	display: none;
 }
 
 /* End of hero */
@@ -349,6 +350,7 @@ p>img {
   right: 5%;
   margin-right: 8px;
   transition: 0.3s;
+  display: none;
 }
 
 .work a.view:hover {
@@ -405,27 +407,29 @@ footer {
 
 /* ============================ Media Queries ====================================== */
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	.container {
 		width: 1240px;
 	}
 	.hero .portrait {
 		max-width: 530px;
 	}
+	}
 	.hero .ellipse {
 		max-width: 680px;
 	}
 }
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
 	.hero .portrait {
 		max-width: 400px;
+	}
 	}
 	.hero .ellipse {
 		max-width: 550px;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.hero .portrait {
 		max-width: 300px;
 	}
@@ -435,7 +439,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-	h1 {
+	h1, .display-3 {
 		font-size: 30px;
 	}
 	h2 {
@@ -484,8 +488,20 @@ footer {
 	margin-left: -5px;
 }
 
+.hbe-input {
+	min-width: 0 !important;
+}
+
+.hbe-input-field {
+	font-size: 1rem !important;
+}
+
 .hbe-input-field-default {
 	color: #0e0e2c !important;
+}
+
+.hbe-input-label-default {
+	font-size: 1rem !important;
 }
 
 .hbe-input-label-default::before {
