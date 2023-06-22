@@ -1,5 +1,5 @@
 ---
-title: Infarm - Design For Production Planning
+title: Design For Production Planning at Infarm
 date: 2022-09-20 08:26:28
 password: michellewu2022
 categories: portfolio
@@ -7,7 +7,7 @@ tags:
   - portfolio
 cover_image: /images/infarm-1.jpg
 ---
-<h3 class="mb-0 text-center font-weight-bold">Improve current software to support users with frictionless production planning in a rapidly growing business.</h3>
+<h5 class="mb-0 text-center">Improve current software to support users with frictionless production planning in a rapidly growing business.</h5>
 <p class="text-muted text-center">Design For Production Planning | Year: 2022</p>
 
 <div style="background:url('/images/infarm-1.jpg') no-repeat center; height:500px"></div>
