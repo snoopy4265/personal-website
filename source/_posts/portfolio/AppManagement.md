@@ -1,7 +1,7 @@
 ---
 title: Redesign Sauce Labs App Management
 date: 2023-06-20 08:26:28
-password: michellewu2022
+password: michellewu2023
 categories: portfolio
 tags:
   - portfolio
@@ -175,13 +175,13 @@ In the end, we were able to gather 21 responses + 6 responses from the internal 
 
 This fine-grained method of testing enabled us to pinpoint areas of the design that were successful and areas that needed further iteration. We then took those learnings and made even more improvements to the final design.
 
-
 </br>
+<hr/>
 </br>
 
 ### Conclusion - Retrospective & Key Learnings
 
-It is not easy to redesign a software service that already has many users. When users have already developed a habitual mental model for your product, it takes a lot of effort to introduce a new mental model and make it easy for users to learn without rebounding. It is also very important to collect feedback from users to verify our design.
+It is not easy to redesign a software service that already has many users. When users have already developed a habitual mental model for your product, it takes a lot of effort to introduce a new mental model and make it easy for users to learn without rebounding. Extensive research and discovery at the beginning is important, but I think what also important is through a continuous process of think, build and learn to see what is working with users, what isn’t, and what improvements can be done to the solution over time.
 
 I am grateful for the trust from the team to let me who just onboarded for no more than a month, take on the responsibility of designing this project and give me timely help during the process. According to our product vision, we will add app distribution and error reporting functions to this project in the future. There are still lots of potential and improvement for this and the impacts are expected to be significant as well.
 
