@@ -1,7 +1,6 @@
 ---
 title: Redesign Sauce Labs App Management
 date: 2023-06-20 08:26:28
-password: michellewu2023
 categories: portfolio
 tags:
   - portfolio
